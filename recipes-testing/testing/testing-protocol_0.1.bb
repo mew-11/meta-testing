@@ -19,4 +19,4 @@ do_install () {
 	install -m 0755 ${S}/*.py ${D}${bindir}
 }
 
-FILES_${PN} += "${bindir}/*.py"
+FILES_${PN} += "${bindir}/main.py"
