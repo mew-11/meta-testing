@@ -3,7 +3,7 @@ HOMEPAGE = "https://github.com/mew-11/testing-protocol"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
-SRC_URI = "https://github.com/mew-11/testing-protocol/archive/v${PV}.tar.gz"
+SRC_URI = "https://github.com/mew-11/testing-protocol/archive/refs/tags/v$\{PV}\.tar.gz"
 SRC_URI[md5sum] = "5605035dc6fc7cc9283a53d3e177a257"
 SRC_URI[sha1sum] = "7e500b8e9e76b9d9ccf8e0bcc0d4cde2b0fc9c45"
 SRC_URI[sha256sum] = "2e7e5e857ed43e8d5ee14d8e4a5e70a9d06bd1086868a2e21d0a69405d599e86"
