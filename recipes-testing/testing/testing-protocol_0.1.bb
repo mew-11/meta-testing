@@ -19,7 +19,4 @@ do_install () {
 	install -m 0755 ${S}/*.py ${D}${bindir}
 }
 
-do_compile () {
-	python3 ${S}/main.py
-}
 FILES_${PN} += "${bindir}/*.py"
